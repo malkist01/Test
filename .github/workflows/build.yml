@@ -15,9 +15,9 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/malkist01/Android-A15.git
+          kernel-url: https://github.com/malkist01/teletubies.git
           kernel-dir: msm-4.9
-          kernel-branch: main
+          kernel-branch: su
           config: teletubies_defconfig
           arch: arm64
           aosp-gcc: true
