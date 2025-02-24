@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: malkist01/kernel_build_action@main
+      uses: dabao1955/kernel_build_action@main
       with:
           kernel-url: https://github.com/malkist01/Android-A15.git
           kernel-dir: msm-4.9
